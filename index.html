@@ -38,7 +38,7 @@
 		<imagetarget id='marker2' src='targets/marker2.png'></imagetarget>
 		<imagetarget id='elefante' src='targets/elefante.jpeg'></imagetarget>
 		<imagetarget id='libro musica' src='targets/libro musica.jpg'></imagetarget>
-		<imagetarget id='isdin_traker' src='targets/isdin_mark.jpg'></imagetarget>
+		<imagetarget id='isdin_tracker' src='targets/iStock-1560745580_Convertido2.jpg'></imagetarget>
 
     <video id="webcam-video" muted autoplay playsinline style="width:1px;position:absolute"></video>
     <!-- <video id="webcam-video" muted autoplay playsinline style="width:100%; height:100%; object-fit:cover; position:absolute"></video> -->
@@ -78,7 +78,7 @@
     </div>
     <script src="arcamera.js" type="text/javascript"></script>
     <script src="itracker.js" type="text/javascript"></script>
-    <script src="Build/isdinV5.1.loader.js"></script>
+    <script src="Build/isdinV5.loader.js"></script>
     <script>
             var unityCanvas = document.querySelector("#unity-canvas");
             var videoCanvas = document.querySelector("#video-canvas");
@@ -104,9 +104,9 @@
                 
                 document.getElementById("startARDiv").style.display = "none";
                 createUnityInstance(document.querySelector("#unity-canvas"), {
-                    dataUrl: "Build/isdinV5.1.data",
-                    frameworkUrl: "Build/isdinV5.1.framework.js",
-                    codeUrl: "Build/isdinV5.1.wasm",
+                    dataUrl: "Build/isdinV5.data",
+                    frameworkUrl: "Build/isdinV5.framework.js",
+                    codeUrl: "Build/isdinV5.wasm",
                     streamingAssetsUrl: "StreamingAssets",
                     companyName: "DefaultCompany",
                     productName: "AR Isdin",
